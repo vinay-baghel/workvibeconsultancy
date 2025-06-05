@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+nav img{
+  width:220px;
+  height: 220px;
+  margin-top: 15px;
+}
+nav{
+  background-color: #ffffff;
+  height: 80px;
+  box-shadow: 0 0 10px grey;
+
+}
+.navbar{
+position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.bg-home{
+background-color:#ffffff;
+
+text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.bg-head{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+button{
+  border-radius: 14px;
+}
+.bg-client{
+ background-color: rgb(240 245 255);
+}
+.bg-video{
+height: 100vh;
+}
+.bg-img{
+width: 400px;
+height:250px;
+}
+.bg-footer img{
+  width: 250px;
+  height:250px;
+
+}
+.bg-logo img{
+  width: 30px;
+  height: 30px;
+
+}
+.bg-glow{
+  text-shadow: 0 0 30px black;
+}
+.bg-gloww{
+  text-shadow: 0 0 10px white;
+}
+.bg-clientt{
+  transition: transform 0.3s ease;
+
+}
+.bg-clientt:hover{
+  transform: scale(1.2);
+}
+.bg-clienttt{
+  transition: transform 0.3s ease;
+}
+.bg-clienttt:hover{
+  transform: scale(1.1);
+}
+
+nav ul li:hover{
+background-color: black;
+color: #ffffff;
+padding: 8px 20px;
+border-radius: 14px;
+
+}
+.bg-co{
+  background-color: #f9f9f9;
+}
+input ,textarea{
+  border: 0.5px solid black;
+  border-radius: 7px;
+}
+.bg-section{
+  background-color: #14213d;
+}
+
+
